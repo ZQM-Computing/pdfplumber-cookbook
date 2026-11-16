@@ -29,6 +29,8 @@ Developers who pull tables and text out of PDFs into DataFrames.
 
 ## Prerequisites
 
+Fleet paths and versions below are a historical snapshot from the Oct 2026 creation wave; verify against the current fleet before use.
+
 - pdfplumber 0.11.10 in Node-1's wave11-venv (`C:\geo-tools\wave11-venv`, Python 3.12.10) — invoke the venv Python by full path, never bare `python` (hermes venv)
 - Fixtures are generated at runtime with PyMuPDF 2.0 (same venv); pdfplumber reads PDFs, it does not create them
 - pandas arrives in the same venv as a Streamlit dependency (table-to-DataFrame conversions)
